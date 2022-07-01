@@ -16,7 +16,7 @@
 	],
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/informsharique/react-native-weather.git"
+		"url": "https://github.com/informsharique/weather-app.git"
 	},
 	"keywords": [
 		"weather",
@@ -25,14 +25,16 @@
 	],
 	"license": "ISC",
 	"bugs": {
-		"url": "https://github.com/informsharique/react-native-weather/issues"
+		"url": "https://github.com/informsharique/weather-app/issues"
 	},
-	"homepage": "https://github.com/informsharique/react-native-weather",
+	"homepage": "https://github.com/informsharique/weather-app",
 	"private": true,
 	"scripts": {
 		"start": "react-native start",
 		"android": "react-native run-android",
-		"ios": "react-native run-ios --simulator=\"iPhone X\"",
+		"ios": "react-native run-ios --simulator=\"iPhone 13 Pro Max\"",
+		"pod:install": "cd ios && pod install",
+		"ios:install": "cd ios && pod install --repo-update",
 		"build:apk": "cd android && ./gradlew assembleRelease",
 		"build:bundle": "cd android && ./gradlew bundleRelease",
 		"clean": "cd android && ./gradlew clean",
