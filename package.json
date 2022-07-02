@@ -21,7 +21,7 @@
 	"keywords": [
 		"weather",
 		"weather react native",
-		"weather android"
+		"weather android ios"
 	],
 	"license": "ISC",
 	"bugs": {
@@ -92,7 +92,7 @@
 		"react-native-spinkit": "^1.5.1",
 		"react-native-svg": "^12.1.1",
 		"react-native-tab-view": "^3.0.1",
-		"react-native-vector-icons": "^8.1.0",
+		"react-native-vector-icons": "^9.2.0",
 		"react-redux": "^7.2.4",
 		"redux-flipper": "^1.4.2",
 		"redux-persist": "^6.0.0",
