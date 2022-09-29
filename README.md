@@ -10,7 +10,7 @@ A Weather app made in react native
 # How to run the project
 
  1. First clone the project using
- `$ git clone https://github.com/informsharique/react-native-coverflow.git`
+ `$ git clone https://github.com/informsharique/weather-app.git`
  2. go to the root of the project and run
 
     `$ yarn install`
